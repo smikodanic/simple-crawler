@@ -1,0 +1,18 @@
+/*
+ Some fixes for angular material
+*/
+
+/* DIALOG */
+
+.cdk-overlay-container {
+  z-index: 99999  !important;
+
+  .cdk-overlay-backdrop {
+    background-color:rgba(20, 37, 9, 0.286)
+  }
+  .cdk-overlay-pane {
+    // border: 5px dashed Green;
+    // top: 100px;
+    // position: relative;
+  }
+}

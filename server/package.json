@@ -1,0 +1,27 @@
+{
+  "name": "angular-server",
+  "version": "1.0.0",
+  "title": "Angular Server",
+  "description": "Angular Server is fast and reliable HTTP server for serving Angular 5+ project.",
+  "main": "./server/index.js",
+  "scripts": {
+    "start": "nodemon server"
+  },
+  "keywords": [
+    "angular",
+    "angular server",
+    "http server"
+  ],
+  "author": "Sasa Mikodanic",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "cheerio": "^1.0.0-rc.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.8.11",
+    "morgan": "^1.9.1",
+    "puppeteer": "^2.1.0",
+    "request-ip": "^2.1.3",
+    "rootpath": "^0.1.2"
+  }
+}
